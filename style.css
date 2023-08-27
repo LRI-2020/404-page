@@ -1,0 +1,70 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+main {
+    text-align: center;
+
+}
+
+
+p {
+    font-size: 1.5vw;
+}
+
+a {
+    color: white;
+    font-size: 1.5vw;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+header{
+    padding: 2px;
+
+}
+
+a:hover {
+
+    font-weight: 900;
+
+}
+
+
+.images {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+
+}
+
+button{
+  width: fit-content;
+  font-size: 1.5vw;
+
+}
+
+
+#navLinks {
+    background: #4C77AF;
+    padding: 5px;
+    text-align: center;
+}
+
+nav a {
+    font-size: 1vw;
+}
+
+
+#GoHomeButton {
+    background-color: #4C77AF;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+
+}

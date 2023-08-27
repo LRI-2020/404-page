@@ -2,23 +2,33 @@
 
 <head>
     <title> This is the 404 page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <a>Home Page</a>
-            <a>404 Page</a>
+        <nav id="navLinks">       
+            <a href="index.html">Home Page</a>
+            <a href="404-page.html">404 Page</a>
+
         </nav>
     </header>
 
     <main>
 
-        <img src="404-error-background-with-balloons.avif">
-        
-        <p>The page you are looking for might have been removed, had its name changed or is temporarily unavailable.</p>
+        <div class="center">
+            <img src="404-error-background-with-balloons.avif" class="images">
 
-        <button onclick="window.location.href='index.html'">Go To Home Page</button>
+            <p>The page you are looking for might have been removed,<br> had its name changed or is temporarily
+                unavailable.
+            </p>
+
+            <div class="button-container">
+                <button id="GoHomeButton" onclick="window.location.href='index.html'">Go To Home Page</button>
+
+            </div>
+
+        </div>
 
 
     </main>
